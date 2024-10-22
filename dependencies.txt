@@ -1,3 +1,0 @@
-Android Studio
-NPM - Node.js
-NPM CLI
