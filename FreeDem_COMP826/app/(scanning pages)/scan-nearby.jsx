@@ -1,6 +1,5 @@
 import { View, Text, SafeAreaView } from 'react-native'
 import React, { useState, useEffect } from 'react'
-import BarCodeScanner from 'expo-barcode-scanner'
 import CustomButton from '../../components/CustomButton';
 
 const ScanNearby = () => {

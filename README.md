@@ -25,7 +25,7 @@ Create a new expo app within that folder by opening up a Terminal and typing
 Install dependencies
 
 ```bash
-  npm install expo-router react-safe-area-context react-native-screens expo-linking expo-constants expo-status-bar nativewind
+  npm install expo-router react-native-safe-area-context react-native-screens expo-linking expo-constants expo-status-bar nativewind
   npm install --save-dev tailwindcss@3.3.2
   npx expo install react-native-appwrite react-native-url-polyfill expo-image-picker
 

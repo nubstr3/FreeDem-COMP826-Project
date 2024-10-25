@@ -9,7 +9,7 @@ import { router } from 'expo-router';
 import { useGlobalContext } from "../../context/GlobalProvider";
 
 const UserMgmt = () => {
-  
+  const { user, setUser, setIsLogged } = useGlobalContext();
   const { data: patients } = useAppwrite(() => getUserPatients(user.$id));
 
   const logout = async () => {
