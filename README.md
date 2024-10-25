@@ -15,11 +15,12 @@ A Mobile App that has an intended purpose to help patients and caregivers strugg
 
 
 ## Run Locally
-Create a folder named "FreeDem_COMP826"
+You may want to create the project from scratch however there is over 400Mb worth of dependencies, alternatively you may download just the node_modules folder from [here]()
 
+### Nonetheless...
 Create a new expo app within that folder by opening up a Terminal and typing
 ```bash
-  npx create-expo-app@latest --template blank ./
+  npx create-expo-app@latest --template blank
 ```
 
 Install dependencies
