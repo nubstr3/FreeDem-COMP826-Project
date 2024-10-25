@@ -15,18 +15,27 @@ A Mobile App that has an intended purpose to help patients and caregivers strugg
 
 
 ## Run Locally
+Create a folder named "FreeDem_COMP826"
 
-Clone the project
-
+Create a new expo app within that folder by opening up a Terminal and typing
 ```bash
-  git clone https://github.com/nubstr3/FreeDem-COMP826-Project.git
+  npx create-expo-app ./
 ```
 
 Install dependencies
 
 ```bash
-  npm install not sure right now
+  npm install expo-router react-safe-area-context react-native-screens expo-linking expo-constants expo-status-bar nativewind
+  npm install --save-dev tailwindcss@3.3.2
+  npx expo install react-native-appwrite react-native-url-polyfill expo-image-picker
+
 ```
+Clone the project
+
+```bash
+  git clone https://github.com/nubstr3/FreeDem-COMP826-Project.git
+```
+Copy all cloned FreeDem_COMP826 files to your newly created project folder (essentially merging both folders)
 
 Download the application 'Expo Go' or 'Expo' on a mobile device
 
@@ -36,9 +45,6 @@ Download the application 'Expo Go' or 'Expo' on a mobile device
 
 Go to the project directory
 
-```bash
-  cd FreeDem-COMP826-Project
-```
 Start the server
 
 ```bash
