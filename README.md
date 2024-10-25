@@ -19,7 +19,7 @@ Create a folder named "FreeDem_COMP826"
 
 Create a new expo app within that folder by opening up a Terminal and typing
 ```bash
-  npx create-expo-app ./
+  npx create-expo-app@latest --template blank ./
 ```
 
 Install dependencies
