@@ -15,7 +15,7 @@ A Mobile App that has an intended purpose to help patients and caregivers strugg
 
 
 ## Run Locally
-You may want to create the project from scratch however there is over 400Mb worth of dependencies, alternatively you may download just the node_modules folder from [here]()
+You may want to create the project from scratch however there is over 400Mb worth of dependencies, alternatively you may download just the node_modules folder from [here](https://drive.google.com/drive/folders/12ETJ19Rz6PBmUJ3txYCRLD2RXhjiWfP3?usp=sharing)
 
 ### Nonetheless...
 Create a new expo app within that folder by opening up a Terminal and typing
