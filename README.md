@@ -20,15 +20,19 @@ You may want to create the project from scratch however there is over 400Mb wort
 ### Nonetheless...
 Create a new expo app within that folder by opening up a Terminal and typing
 ```bash
-  npx create-expo-app@latest --template blank
+  npx create-expo-app@latest --template
 ```
+### When you choose your template be sure to choose the blank (non Typescript) version.
 
 Install dependencies
 
 ```bash
-  npm install expo-router react-native-safe-area-context react-native-screens expo-linking expo-constants expo-status-bar nativewind
+  npm install expo-router
+  npm install react-native-safe-area-context react-native-screens expo-linking expo-constants expo-status-bar
+  npm install nativewind
   npm install --save-dev tailwindcss@3.3.2
-  npx expo install react-native-appwrite react-native-url-polyfill expo-image-picker
+  npx expo install react-native-appwrite react-native-url-polyfill
+  npx expo install expo-image-picker
 
 ```
 Clone the project
@@ -53,6 +57,10 @@ Start the server
 ```
 
 Navigate to the Camera App and scan the QR code, click on the 'open in Expo (Go)' link to access the application
+
+### To Access the Application, either shake your device or 3 finger long press to enter development mode
+
+From there you can access the application through [these](https://docs.google.com/document/d/1RrpGA4ZCSikneeQTXkReHa3xjA28oR96Glma5nStZJI/edit?usp=sharing) already made accounts
 
 
 
