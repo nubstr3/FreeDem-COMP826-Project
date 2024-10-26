@@ -33,6 +33,7 @@ Install dependencies
   npm install --save-dev tailwindcss@3.3.2
   npx expo install react-native-appwrite react-native-url-polyfill
   npx expo install expo-image-picker
+  npx expo install expo-camera
 
 ```
 Clone the project
